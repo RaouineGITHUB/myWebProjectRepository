@@ -35,7 +35,7 @@ public class HelloKarim extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter pw = response.getWriter();
-		pw.write("Hello Karim");
+		pw.write("Hello Karim feature 1");
 	}
 
 	/**
